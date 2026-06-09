@@ -3,4 +3,5 @@ Code for research project, examining CESM2.2 CAM-chem regional sensitivities of 
 
 Directories and files will be added and updated as the project progresses.
 
-1. emissions_masking --> Script used to read in original emissions datasets, apply regional mask, and create three masked collections of netcdf files
+1. emissions_masking.ipynb: Script used to read in original emissions datasets, apply regional mask, and create three masked collections of netcdf files
+2. utils: Contains modules for different types of plots, and the original regional netcdf files
