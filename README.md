@@ -8,12 +8,19 @@ Directories and files will be added and updated as the project progresses.
 2. regions.ipynb: Script used to establish regions for our experiment and create regional files to use as the basis for the mask
    
 3. utils: Contains modules for different types of plots, and the original regional netcdf files
-   a) difference plot module - module with functions to plot surface spatial differences in pollutant concentrations between simulations, averaged both seasonally and over the whole study period
+   
+    a) difference plot module - module with functions to plot surface spatial differences in pollutant concentrations between simulations, averaged both seasonally and over the whole study period
+   
    b) mapping module - module with mapping functions, including surface concentrations and tropospheric concentrations for both pollutants, as well as stratospheric concentrations for ozone
-   c) percent contribution - module with functions that calculated percent contribution of a given region when compared to the historical region. Also contains code to produce a table and time series of seasonal percent contributions.
+   
+   c) percent contribution - module with functions that calculated percent contribution of a given region when compared to the historical region. Also contains code to produce a table and time series of seasonal percent contributions
+   
    d) timeseries module - module with functions to create a time series of surface ozone concentrations, surface pm25 concentrations, and concentration differences between all four simulations.
+   
    e) utils helper funcs - contains helper functions for all other utility modules
+   
    f) utils regions - contains a copy of the original regions.ipynb to be used in other utility modules
+   
 
 5. analysis: Contains notebooks with final data analyses
    a) PM2.5 analysis - notebook with time series of PM2.5 concentrations and percent contribution plots/tables
