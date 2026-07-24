@@ -23,8 +23,13 @@ Directories and files will be added and updated as the project progresses.
    
 
 5. analysis: Contains notebooks with final data analyses
+   
    a) PM2.5 analysis - notebook with time series of PM2.5 concentrations and percent contribution plots/tables
+   
    b) difference analysis - notebook with spatial difference plots for all three masked simulations for PM2.5 and ozone, as well as difference timeseries
+   
    c) dust maps - notebook with spatial maps of coarse dust and PM2.5 concentrations for the two dust schemes tested
+   
    d) historical analysis - spatial maps of seasonal averages for ozone and PM2.5 for the historical, global fire simulation
+   
    e) ozone analysis - notebook with time series of ozone concentrations and percent contribution plots/tables
