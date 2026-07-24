@@ -1,16 +1,16 @@
-## Keefe-SOARS-2026
+# Keefe-SOARS-2026
 Code for research project, examining CESM2.2 CAM-chem regional sensitivities of ozone and PM2.5 due to wildfire emissions in Australia and North America. All necessary scripts are included.
   
  
-# 1. emissions_masking.ipynb: 
+### 1. emissions_masking.ipynb: 
 Script used to read in original emissions datasets, apply regional mask, and create three masked collections of netcdf files
 
    
-# 2. regions.ipynb: 
+### 2. regions.ipynb: 
 Script used to establish regions for our experiment and create regional files to use as the basis for the mask
 
    
-# 3. utils: 
+### 3. utils: 
 Contains modules for different types of plots, and the original regional netcdf files
 
    a) difference plot module - module with functions to plot surface spatial differences in pollutant concentrations between simulations, averaged both seasonally and over the whole study period
@@ -27,7 +27,7 @@ Contains modules for different types of plots, and the original regional netcdf 
    
   
 
-# 5. analysis:
+### 4. analysis:
 Contains notebooks with final data analyses
    
    a) PM2.5 analysis - notebook with time series of PM2.5 concentrations and percent contribution plots/tables
