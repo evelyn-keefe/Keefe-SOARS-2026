@@ -1,4 +1,4 @@
-# Keefe-SOARS-2026
+## Keefe-SOARS-2026
 Code for research project, examining CESM2.2 CAM-chem regional sensitivities of ozone and PM2.5 due to wildfire emissions in Australia and North America. All necessary scripts are included.
   
  
@@ -13,7 +13,7 @@ Script used to establish regions for our experiment and create regional files to
 # 3. utils: 
 Contains modules for different types of plots, and the original regional netcdf files
 
-    a) difference plot module - module with functions to plot surface spatial differences in pollutant concentrations between simulations, averaged both seasonally and over the whole study period
+   a) difference plot module - module with functions to plot surface spatial differences in pollutant concentrations between simulations, averaged both seasonally and over the whole study period
    
    b) mapping module - module with mapping functions, including surface concentrations and tropospheric concentrations for both pollutants, as well as stratospheric concentrations for ozone
    
